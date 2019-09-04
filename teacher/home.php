@@ -126,7 +126,7 @@
                if(mysqli_num_rows($result) >0){
                    while($record=mysqli_fetch_assoc($result)){
                        $fullname = $record['Fullname'];
-                       $image = $record['image'];
+                       $file_name = $record['Image'];
                        ?>
                        <div class="col-md-3">
                           <?php echo "<img style='border-radiius:15%;' src='../upload/image/$file_name' width='250' height='150'>"; 
