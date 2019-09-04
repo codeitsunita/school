@@ -63,10 +63,31 @@
         </div>
     </nav>
   
-    <div class="container text-center">
-         <div>
-  <p>The table showing notes of students.</p>  
-  </div>          
+    
+        
+        
+        
+          <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="row">
+                    <div class="col-lg-10" style="margin-left: -15px;">
+                        <div class="list-group"><a href="index.php" class="list-group-item list-group-item-action"  style="background-color: #c6c0c0;">Home</a>
+                           <a href="notice.php" class="list-group-item list-group-item-action" style="background-color: #c6c0c0;">Notice</a>
+                            <a href="notes.php" class="list-group-item list-group-item-action"  style="background-color: #c6c0c0;">Notes</a>
+                            <a href="viewAssignment.php" class="list-group-item list-group-item-action" style="background-color: #c6c0c0;">View Assignment</a>
+                            <a href="submitAssignment.php" class="list-group-item list-group-item-action"
+                                  style="background-color: #c6c0c0;">Submit Assignment</a>
+                                   <a href="event.php" class="list-group-item list-group-item-action"  style="background-color: #c6c0c0;">Event</a>
+                                   <a href="../index.php"
+                                    class="list-group-item list-group-item-action"  style="background-color: #c6c0c0;">Log Out</a></div>
+                    </div>
+                </div>
+            </div>
+            
+         <div class="col-lg-9">
+  <p style="margin-top:10px;">The table showing notes of students.</p>  
+         
   <table class="table table-hover ">
     <thead>
       <tr>
@@ -112,7 +133,9 @@
     </tbody>
   </table>
     </div>
-    
+    </div>
+    </div>
+
     
      <footer style="background-color: #825889;">
         <div class="row">
