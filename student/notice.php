@@ -88,7 +88,7 @@
        <div class="col-lg-9">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="box">
+                    <div class="box" >
                         <h2  class="ml-2" style="text-decoration: underline; color: #700000; margin-top:10px; ">Emergency Notice</h2>
                         
                     </div>
@@ -98,10 +98,10 @@
             </div> 
             <div class="row">
                 <div class="col-md-12">
-                    <div class="box1">
+                    <div class="box1" style="background-color:#c6c0c0;">
                         <h3 class="ml-2" style=" color: #222222; font-family: sans-serif">Title: Second exam form is opening soon</h3>
                          <p class="ml-5" style=" color: #222222;">2019/08/26</p>
-                         <div class="box2">
+                         <div class="box2" style="background-color:#c6c0c0;">
                              <img src="assets/img/ic-lock.png" alt="" width="120px" height="120px">
                          </div>
                         <p style="float: right;">Posted by:Admin</p>
@@ -113,7 +113,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div class="box1">
+                    <div class="box1" style="background-color:#c6c0c0;">
                         <h3 class="ml-2" style=" color: #222222; font-family: sans-serif">Title: School anniversary  on ashar 12</h3>
                          <p class="ml-5" style=" color: #222222;">2019/08/26</p>
                          <div class="box2">
@@ -128,7 +128,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div class="box1">
+                    <div class="box1" style="background-color:#c6c0c0;">
                         <h3 class="ml-2" style=" color: #222222; font-family: sans-serif">Title: First term exam routine</h3>
                          <p class="ml-5" style=" color: #222222;">2019/08/26</p>
                          <div class="box2">
@@ -143,7 +143,7 @@
             </div> 
             <div class="row">
                 <div class="col-md-12">
-                    <div class="box1">
+                    <div class="box1" style="background-color:#c6c0c0;">
                         <h3 class="ml-2" style=" color: #222222; font-family: sans-serif">Title: First term exam routine</h3>
                          <p class="ml-5" style=" color: #222222;">2019/08/26</p>
                          <div class="box2">
@@ -172,6 +172,7 @@
             <div class="clear"></div>
             <a href="">Read More>></a> 
         </div>
+    </div>
     </div>
     
      <footer style="background-color: #825889;">
