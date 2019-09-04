@@ -64,7 +64,7 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="notice.php" uk-scroll="offset:100">Notice</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="notes.php" uk-scroll="offset:100">notes</a></li>
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Assignment</a>
-                       <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="su">Assignment Submit</a><a class="dropdown-item" role="presentation" href="#">Assignment Receive</a></div>
+                       <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="submitAssignment.php">Assignment Submit</a><a class="dropdown-item" role="presentation" href="#">Assignment Receive</a></div>
                     </li>
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="event.php">Event</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="../index.php" uk-scroll="offset:50">Log Out</a></li>

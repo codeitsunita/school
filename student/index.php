@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if(isset($_SESSION['username'])){
+        $username = $_SESSION['username'];
+    }else{
+        header('location:login.php');
+    }
+?>
 <!DOCTYPE html>
 <html>
 
@@ -60,7 +68,7 @@
         </div>
         </div>
     </nav>
-    <div class="alert alert-success" role="alert"><span><strong><marquee>Welcome To Student Area!</marquee></strong></span></div>
+    <div class="alert alert-success" role="alert"><span><strong><marquee>Welcome To Student Area! <?php echo"$username" ?></marquee></strong></span></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3">
