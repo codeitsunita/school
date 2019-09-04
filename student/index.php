@@ -52,52 +52,29 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="notice.php" uk-scroll="offset:100">Notice</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="receivenotes.php" uk-scroll="offset:100">notes</a></li>
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Assignment</a>
-                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="su">Assignment Submit</a><a class="dropdown-item" role="presentation" href="#">Assignment Receive</a></div>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="viewAssignment.php">View</a><a class="dropdown-item" role="presentation" href="submitAssignment.php">Submit</a></div>
                     </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="event.html">Event</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="event.php">Event</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="../index.php" uk-scroll="offset:50">Log Out</a></li>
                 </ul>
         </div>
         </div>
     </nav>
-    <div class="alert alert-success" role="alert"><span><strong>Welcome To Student Area!</strong></span></div>
+    <div class="alert alert-success" role="alert"><span><strong><marquee>Welcome To Student Area!</marquee></strong></span></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3">
                 <div class="row">
                     <div class="col-lg-10" style="margin-left: -15px;">
-                        <div class="list-group"><a href="#list-home" class="list-group-item list-group-item-action" data-toggle="list" style="background-color: #c6c0c0;">Home</a><a href="#list-profile" class="list-group-item list-group-item-action" data-toggle="list" style="background-color: #c6c0c0;">Notice</a>
-                            <a
-                                href="#list-messages" class="list-group-item list-group-item-action" data-toggle="list" style="background-color: #c6c0c0;">Notes</a><a href="#list-settings" class="list-group-item list-group-item-action" data-toggle="list" style="background-color: #c6c0c0;">View Assignment</a><a href="#list-settings" class="list-group-item list-group-item-action"
-                                    data-toggle="list" style="background-color: #c6c0c0;">Submit Assignment</a><a href="#list-settings" class="list-group-item list-group-item-action" data-toggle="list" style="background-color: #c6c0c0;">Event</a><a href="#list-settings"
-                                    class="list-group-item list-group-item-action" data-toggle="list" style="background-color: #c6c0c0;">Log Out</a></div>
-                    </div>
-                    <div class="col">
-                        <div class="tab-content">
-                            <div id="list-home" class="tab-pane fade" role="tabpanel">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis id consectetur purus ut faucibus pulvinar. Integer quis auctor elit sed vulputate mi sit.
-                                    Vitae congue eu consequat ac felis donec. Pellentesque elit eget gravida cum sociis natoque penatibus. Ultrices gravida dictum fusce ut. Justo donec enim diam vulputate ut pharetra sit. Fermentum iaculis eu non diam
-                                    phasellus vestibulum. Tellus elementum sagittis vitae et leo duis ut. Tristique sollicitudin nibh sit amet commodo.&nbsp;</p>
-                            </div>
-                            <div id="list-profile" class="tab-pane fade" role="tabpanel">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien. Id aliquet lectus proin nibh nisl condimentum id. Scelerisque purus
-                                    semper eget duis. Eu sem integer vitae justo eget. Scelerisque varius morbi enim nunc faucibus. Sit amet consectetur adipiscing elit. Sed pulvinar proin gravida hendrerit lectus. Arcu odio ut sem nulla pharetra diam.
-                                    Senectus et netus et malesuada fames ac. Nec ultrices dui sapien eget mi proin. Bibendum ut tristique et egestas quis ipsum. Mattis enim ut tellus elementum sagittis vitae. Fusce id velit ut tortor pretium viverra suspendisse
-                                    potenti nullam.</p>
-                            </div>
-                            <div id="list-messages" class="tab-pane fade" role="tabpanel">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis parturient. Elit ut aliquam purus sit amet luctus venenatis. Nunc
-                                    id cursus metus aliquam eleifend mi in nulla posuere. Lacus vestibulum sed arcu non odio euismod lacinia. Ac turpis egestas maecenas pharetra. Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Facilisis
-                                    magna etiam tempor orci eu lobortis elementum nibh. Cursus turpis massa tincidunt dui ut ornare lectus. Aliquam etiam erat velit scelerisque in dictum non consectetur. Mollis aliquam ut porttitor leo a diam sollicitudin
-                                    tempor id. Potenti nullam ac tortor vitae. At imperdiet dui accumsan sit amet nulla facilisi morbi. Id eu nisl nunc mi ipsum faucibus. Scelerisque varius morbi enim nunc faucibus a pellentesque sit. Tellus mauris a
-                                    diam maecenas sed. Tristique nulla aliquet enim tortor. Nunc faucibus a pellentesque sit amet porttitor eget dolor. Id velit ut tortor pretium viverra.</p>
-                            </div>
-                            <div id="list-settings" class="tab-pane fade" role="tabpanel">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada proin libero nunc consequat. Gravida neque convallis a cras semper auctor. Metus aliquam
-                                    eleifend mi in nulla posuere sollicitudin. Id velit ut tortor pretium. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Pellentesque habitant morbi tristique senectus et netus et. Non tellus orci
-                                    ac auctor augue mauris augue neque. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Phasellus vestibulum lorem sed risus ultricies tristique nulla.</p>
-                            </div>
-                        </div>
+                        <div class="list-group"><a href="index.php" class="list-group-item list-group-item-action"  style="background-color: #c6c0c0;">Home</a>
+                           <a href="notice.php" class="list-group-item list-group-item-action" style="background-color: #c6c0c0;">Notice</a>
+                            <a href="notes.php" class="list-group-item list-group-item-action"  style="background-color: #c6c0c0;">Notes</a>
+                            <a href="viewAssignment.php" class="list-group-item list-group-item-action" style="background-color: #c6c0c0;">View Assignment</a>
+                            <a href="submitAssignment.php" class="list-group-item list-group-item-action"
+                                  style="background-color: #c6c0c0;">Submit Assignment</a>
+                                   <a href="event.php" class="list-group-item list-group-item-action"  style="background-color: #c6c0c0;">Event</a>
+                                   <a href="../index.php"
+                                    class="list-group-item list-group-item-action"  style="background-color: #c6c0c0;">Log Out</a></div>
                     </div>
                 </div>
             </div>
@@ -164,23 +141,30 @@
     </div>
     <footer style="background-color: #825889;">
         <div class="row">
-            <div class="col">
+            <div class="col-sm-4 col-md-4 col-xl-4">
                 <h2 style="font-family: Actor, sans-serif;">ABC College</h2>
-                <p class="links"><a href="#" style="color: rgb(243,244,245);">Home</a><strong> · </strong><a href="#" style="color: rgb(243,244,245);">Blog</a><strong> · </strong><a href="#" style="color: rgb(243,244,245);">Pricing</a><strong> · </strong><a href="#" style="color: rgb(243,244,245);">About</a><strong> · </strong>
-                    <a
-                        href="#" style="color: rgb(243,244,245);">Faq</a><strong> · </strong><a href="#" style="color: rgb(243,244,245);">Contact</a></p>
+                <p class="links">
+                   <a href="home.php" style="color: rgb(243,244,245);">Home</a>
+                   <strong> · </strong><a href="notice.php" style="color: rgb(243,244,245);">Notice</a>
+                   <strong> · </strong><a href="notes.php" style="color: rgb(243,244,245);">Notes</a>
+                   <strong> · </strong><a href="viewAssignment.php" style="color: rgb(243,244,245);">View Assignment</a>
+                   <strong> · </strong><a href="submitAssignment.php" style="color: rgb(243,244,245);">Submit Assignment</a>
+                   <strong> · </strong><a href="event.php" style="color: rgb(243,244,245);">Event</a>
+                </p>
             </div>
-            <div class="col">
+            
+            <div class="col-sm-4 col-md-4 col-xl-4">
                 <div></div>
                 <p><i class="fa fa-map-marker"></i>&nbsp; &nbsp; &nbsp;Dharan-10</p>
                 <p><i class="fa fa-phone-square"></i>&nbsp; &nbsp;+123456789</p>
-                <p><i class="icon ion-email"></i>&nbsp; &nbsp; maile@company.com</p>
+                <p><i class="icon ion-email"></i>&nbsp; &nbsp; mail@company.com</p>
             </div>
-            <div class="col">
+            
+            <div class="col-sm-4 col-md-4 col-xl-4">
                 <div>
                     <p>Get Connected</p>
                 </div>
-                <div></div>
+                
                 <div class="social-links social-icons"><a href="#" style="background-color: rgb(242,245,247);"><i class="fa fa-facebook" style="color: rgb(130,88,137);"></i></a><a href="#" style="background-color: rgb(249,250,251);"><i class="fa fa-twitter" style="color: #825889;"></i></a>
                     <a
                         href="#" style="background-color: rgb(244,245,247);"><i class="fa fa-linkedin" style="color: #825889;"></i></a><a href="#" style="background-color: rgb(249,250,251);"><i class="fa fa-github" style="color: #825889;"></i></a></div>

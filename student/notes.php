@@ -48,11 +48,11 @@
             <div
                 class="collapse navbar-collapse" id="navcol-1" style="background-color: #825889;padding-left: 20px;">
                 <ul class="nav navbar-nav ml-auto" style="margin-top:13px;">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.php" uk-scroll="offset:50">Home </a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link " href="index.php" uk-scroll="offset:50">Home </a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="notice.php" uk-scroll="offset:100">Notice</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="notes.php" uk-scroll="offset:100">notes</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="notes.php" uk-scroll="offset:100">notes</a></li>
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Assignment</a>
-                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="submitAssignment.php">Assignment Submit</a><a class="dropdown-item" role="presentation" href="viewAssignment.php">Assignment Receive</a></div>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="submitAssignment.php">View</a><a class="dropdown-item" role="presentation" href="viewAssignment.php">Submit</a></div>
                     </li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="event.php">Event</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="../index.php" uk-scroll="offset:50">Log Out</a></li>
@@ -60,7 +60,7 @@
         </div>
         </div>
     </nav>
-    <div class="alert alert-success" role="alert"><span><strong>Welcome To Student Area!</strong></span></div>
+  
     <div class="container text-center">
          <h2>Notes table</h2>
   <p>The table showing notes of students.</p>            
