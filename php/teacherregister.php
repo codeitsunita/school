@@ -8,7 +8,6 @@
        $mobile=$_POST['mobile'];
        $faculty=$_POST['faculty'];
        $usertype=$_POST['usertype'];
-       //$semester=$_POST['semester'];
        $file_name = $_FILES['file']['name'];
        $file_size = $_FILES['file']['size'];
        $file_type = $_FILES['file']['type'];
@@ -29,7 +28,7 @@
                        header('Refresh:4;../admin/adminhome.php');
                    }else{
 
-                        echo "error";
+                        echo("error:" . mysqli_error());
                         header('Refresh:4;../register.php');
                         }
                }

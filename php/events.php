@@ -10,6 +10,10 @@
     $error=$_FILES['file']['error'];
     $remarks=$_POST['txtRemarks'];
     $postby=$_POST['txtPost'];
+        
+        $temp = explode(".",$file_name);
+        $file_name = round(microtime(true)) . '.' . end($temp);
+        
         if($error == 0) {
              if($file_size > 0){
                  if($file_type =="image/png" || $file_type=="image/jpeg"){
