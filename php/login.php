@@ -1,4 +1,5 @@
 <?php
+    session_start();
     $username = $_POST['username'];
     $password = $_POST['password'];
     $usertype =$_POST['usertype'];
@@ -10,13 +11,18 @@
     $result= mysqli_query($con,$query);
     
     if(mysqli_num_rows($result)>0){
-        if($usertype== 'admin'){
+        while($record=mysqli_fetch_assoc($result)){
+            $faculty= $record['Faculty'];
+            if($usertype== 'admin'){
             header('location:../index.php');
         }else if($usertype =='teacher'){
+                $_SESSION['faculty'] = $faculty;
             header('location:../teacher/home.php');
         }else{
             header('location:../student/home.php');
         }
+        }
+        
     }else{
         echo "invalid username or password";
     }

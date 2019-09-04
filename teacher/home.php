@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if(isset($_SESSION['faculty'])){
+        $faculty = $_SESSION['faculty'];
+    }else{
+        header('location:login.php');
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -110,36 +118,27 @@
            <div class="section text-center">
            <h1 style="margin-top: 35px;"> Faculty Member</h1>
            <hr>
-            <div class="col-md-3">
-              <img src="gallery/two.jpg" alt="">
-            </div>
-            <div class="col-md-3">
-               <img src="gallery/five.jpg" alt="">
-             </div>
-            <div class="col-md-3">
-             <img src="gallery/six.jpg" alt="">
-           </div>
-            <div class="col-md-3">
-                <img src="gallery/seven.jpg" alt="">
-             </div>
+            <?php
+                include"../php/connect.php";
+               $query = "SELECT * FROM account where faculty ='$faculty'";
+                
+                $result = mysqli_query($con,$query);
+               if(mysqli_num_rows($result) >0){
+                   while($record=mysqli_fetch_assoc($result)){
+                       $fullname = $record['Fullname'];
+                       $image = $record['image'];
+                       ?>
+                       <div class="col-md-3">
+                          <?php echo "<img style='border-radiius:15%;' src='../upload/image/$file_name' width='250' height='150'>"; 
+                                echo "$fullname";
+                           ?>
+                       </div>
+                       <?php
+                   }
+               }
+            ?>
             </div>
         </div>
-        <div class="row" style="margin-top: 20px;">
-             <div class="section text-center">
-            <div class="col-md-3">
-            <img src="gallery/seven.jpg" alt="">
-            </div>
-            <div class="col-md-3">
-                <img src="gallery/two.jpg" alt="">
-            </div>
-            <div class="col-md-3">
-            <img src="gallery/five.jpg" alt="">
-            </div>
-            <div class="col-md-3">
-                <img src="gallery/six.jpg" alt="">
-             </div>
-            </div>
-    </div>
 <footer class="container-fluid text-center" style="background-color:#000;">
   <p>copyright@Pedagogy 2019</p>
 </footer>
