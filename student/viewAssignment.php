@@ -54,8 +54,8 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="index.php" uk-scroll="offset:50">Home </a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="notice.php" uk-scroll="offset:100">Notice</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="notes.php" uk-scroll="offset:100">notes</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="viewAssignment.html">Assignment</a>
-                        <div class="dropdown-menu" role="menu" style="background-color: #c6c0c0;"><a class="dropdown-item border rounded-0" role="presentation" href="viewAssignment.php">View Assignment</a><a class="dropdown-item border rounded-0" role="presentation" href="submitAssignment.php" style="background-color: #c6c0c0;">Submit Assignment</a></div>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link active" data-toggle="dropdown" aria-expanded="false" href="viewAssignment.php">Assignment</a>
+                        <div class="dropdown-menu" role="menu" style="background-color: #c6c0c0;"><a class="dropdown-item border rounded-0" role="presentation" href="viewAssignment.php">View </a><a class="dropdown-item border rounded-0" role="presentation" href="submitAssignment.php" style="background-color: #c6c0c0;">Submit</a></div>
                     </li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="event.php">Event</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="../index.php" uk-scroll="offset:50">Log Out</a></li>
@@ -63,21 +63,41 @@
         </div>
         </div>
     </nav>
-    <div class="container text-center box">
-        <h2>Assignment table</h2>
+    
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="row">
+                    <div class="col-lg-10" style="margin-left: -15px;">
+                        <div class="list-group"><a href="index.php" class="list-group-item list-group-item-action"  style="background-color: #c6c0c0;">Home</a>
+                           <a href="notice.php" class="list-group-item list-group-item-action" style="background-color: #c6c0c0;">Notice</a>
+                            <a href="notes.php" class="list-group-item list-group-item-action"  style="background-color: #c6c0c0;">Notes</a>
+                            <a href="viewAssignment.php" class="list-group-item list-group-item-action" style="background-color: #c6c0c0;">View Assignment</a>
+                            <a href="submitAssignment.php" class="list-group-item list-group-item-action"
+                                  style="background-color: #c6c0c0;">Submit Assignment</a>
+                                   <a href="event.php" class="list-group-item list-group-item-action"  style="background-color: #c6c0c0;">Event</a>
+                                   <a href="../index.php"
+                                    class="list-group-item list-group-item-action"  style="background-color: #c6c0c0;">Log Out</a></div>
+                    </div>
+                </div>
+            </div>
+            
+    
+    <div class="col-lg-9">
+        <h5 style="font-family:Actor; margin-top:10px;">Assignment table</h5>
           <p>The table showing assignment of students.</p>            
           <table class="table table-hover ">
             <thead>
               <tr>
-                 <th scope="col">ID</th>
-                 <th scope="col">Date</th>
-                 <th scope="col">Deadline</th>
-                 <th scope="col">SubjectCode</th>
-                 <th scope="col">Faculty</th>
-                 <th scope="col">Semester</th>
-                 <th scope="col">Assignment</th>
-                 <th scope="col">Remarks</th>
-                 <th scope="col">Teacher</th>
+                 <th style="background-color: #c6c0c0;" scope="col">ID</th>
+                 <th style="background-color: #c6c0c0;"scope="col">Date</th>
+                 <th style="background-color: #c6c0c0;"scope="col">Deadline</th>
+                 <th style="background-color: #c6c0c0;"scope="col">SubjectCode</th>
+                 <th style="background-color: #c6c0c0;"scope="col">Faculty</th>
+                 <th style="background-color: #c6c0c0;" scope="col">Semester</th>
+                 <th style="background-color: #c6c0c0;"scope="col">Assignment</th>
+                 <th style="background-color: #c6c0c0;"scope="col">Remarks</th>
+                 <th style="background-color: #c6c0c0;"scope="col">Teacher</th>
 
               </tr>
             </thead>
@@ -120,34 +140,44 @@
     </tbody>
   </table>
     </div>
-    <footer style="background-color: #825889;">
+ </div>
+ </div>
+      
+      
+       <footer style="background-color: #825889;">
         <div class="row">
-            <div class="col">
+            <div class="col-sm-4 col-md-4 col-xl-4">
                 <h2 style="font-family: Actor, sans-serif;">ABC College</h2>
-                <p class="links"><a href="#" style="color: rgb(243,244,245);">Home</a><strong> · </strong><a href="#" style="color: rgb(243,244,245);">Blog</a><strong> · </strong><a href="#" style="color: rgb(243,244,245);">Pricing</a><strong> · </strong><a href="#" style="color: rgb(243,244,245);">About</a><strong> · </strong>
-                    <a
-                        href="#" style="color: rgb(243,244,245);">Faq</a><strong> · </strong><a href="#" style="color: rgb(243,244,245);">Contact</a></p>
+                <p class="links">
+                   <a href="home.php" style="color: rgb(243,244,245);">Home</a>
+                   <strong> · </strong><a href="notice.php" style="color: rgb(243,244,245);">Notice</a>
+                   <strong> · </strong><a href="notes.php" style="color: rgb(243,244,245);">Notes</a>
+                   <strong> · </strong><a href="viewAssignment.php" style="color: rgb(243,244,245);">View Assignment</a>
+                   <strong> · </strong><a href="submitAssignment.php" style="color: rgb(243,244,245);">Submit Assignment</a>
+                   <strong> · </strong><a href="event.php" style="color: rgb(243,244,245);">Event</a>
+                </p>
             </div>
-            <div class="col">
-                <div></div>
+            
+            <div class="col-sm-4 col-md-4 col-xl-4">
+                <div>
                 <p><i class="fa fa-map-marker"></i>&nbsp; &nbsp; &nbsp;Dharan-10</p>
                 <p><i class="fa fa-phone-square"></i>&nbsp; &nbsp;+123456789</p>
-                <p><i class="icon ion-email"></i>&nbsp; &nbsp; maile@company.com</p>
+                <p><i class="icon ion-email"></i>&nbsp; &nbsp; mail@company.com</p>
+                </div>
             </div>
-            <div class="col">
+            
+            <div class="col-sm-4 col-md-4 col-xl-4">
                 <div>
                     <p>Get Connected</p>
                 </div>
-                <div></div>
-                <div class="social-links social-icons">
-                    <a href="#" style="background-color: rgb(242,245,247);"><i class="fa fa-facebook" style="color: rgb(130,88,137);"></i></a>
-                    <a href="#" style="background-color: rgb(249,250,251);"><i class="fa fa-twitter" style="color: #825889;"></i></a>
-                    <a href="#" style="background-color: rgb(244,245,247);"><i class="fa fa-linkedin" style="color: #825889;"></i></a>
-                    <a href="#" style="background-color: rgb(249,250,251);"><i class="fa fa-github" style="color: #825889;"></i></a>
-                </div>
+                
+                <div class="social-links social-icons"><a href="#" style="background-color: rgb(242,245,247);"><i class="fa fa-facebook" style="color: rgb(130,88,137);"></i></a><a href="#" style="background-color: rgb(249,250,251);"><i class="fa fa-twitter" style="color: #825889;"></i></a>
+                    <a
+                        href="#" style="background-color: rgb(244,245,247);"><i class="fa fa-linkedin" style="color: #825889;"></i></a><a href="#" style="background-color: rgb(249,250,251);"><i class="fa fa-github" style="color: #825889;"></i></a></div>
             </div>
         </div>
     </footer>
+    
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>

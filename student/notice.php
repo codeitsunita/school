@@ -175,6 +175,7 @@
     </div>
     </div>
     
+    
      <footer style="background-color: #825889;">
         <div class="row">
             <div class="col-sm-4 col-md-4 col-xl-4">
