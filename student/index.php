@@ -50,7 +50,7 @@
                 <ul class="nav navbar-nav ml-auto" style="margin-top:13px;">
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="index.php" uk-scroll="offset:50">Home </a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="notice.php" uk-scroll="offset:100">Notice</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="receivenotes.php" uk-scroll="offset:100">notes</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="notes.php" uk-scroll="offset:100">notes</a></li>
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Assignment</a>
                         <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="viewAssignment.php">View</a><a class="dropdown-item" role="presentation" href="submitAssignment.php">Submit</a></div>
                     </li>
@@ -154,10 +154,11 @@
             </div>
             
             <div class="col-sm-4 col-md-4 col-xl-4">
-                <div></div>
+                <div>
                 <p><i class="fa fa-map-marker"></i>&nbsp; &nbsp; &nbsp;Dharan-10</p>
                 <p><i class="fa fa-phone-square"></i>&nbsp; &nbsp;+123456789</p>
                 <p><i class="icon ion-email"></i>&nbsp; &nbsp; mail@company.com</p>
+                </div>
             </div>
             
             <div class="col-sm-4 col-md-4 col-xl-4">
