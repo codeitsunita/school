@@ -1,9 +1,4 @@
 <?php
-
-    include "layouts/header.php";
-   
-  
-
     session_start();
     if(isset($_SESSION['username'])){
         $username = $_SESSION['username'];
@@ -11,9 +6,11 @@
         header('location:../login.php');
     }
 ?>
+    <?php
 
-
-
+    include "layouts/header.php";
+   ?> 
+   <div class="alert alert-success" role="alert"><span><strong><marquee>Welcome To Student Area : <?php echo "$username" ?></marquee></strong></span></div>  
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3">
@@ -66,7 +63,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-md-4 col-xl-4">
+
+                </div>
+                   
+            
+             
+              
+               
+                
+                  </div>
+        </div>
+    </div>
+       
+         <div class="container-fluid">
+        <div class="row">
+            <div class="col offset-xl-3">
+                <div class="row">
+                     <div class="col-sm-4 col-md-4 col-xl-4">
                         <div class="serviceBox yellow">
                             <div class="service-icon" style="height: 75px;background-color: #c6c0c0;"><a href="#"></a>
                                 <h4 style="color: rgb(38,42,47);font-family: Actor, sans-serif;">Submit Assignment</h4>
@@ -89,13 +102,7 @@
                         </div>
                     </div>
                 </div>
-                   
-            
-             
-              
-               
-                
-                  </div>
+            </div>
         </div>
     </div>
         
