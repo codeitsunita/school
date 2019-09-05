@@ -1,7 +1,19 @@
 <?php
+
     include "layouts/header.php";
-   ?> 
-    <div class="alert alert-success" role="alert"><span><strong><marquee>Welcome To Student Area!</marquee></strong></span></div>
+   
+  
+
+    session_start();
+    if(isset($_SESSION['username'])){
+        $username = $_SESSION['username'];
+    }else{
+        header('location:../login.php');
+    }
+?>
+
+
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3">

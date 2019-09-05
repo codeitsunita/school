@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if(isset($_SESSION['faculty'])){
+        $faculty = $_SESSION['faculty'];
+    }else{
+        header('location:../login.php');
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

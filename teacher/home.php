@@ -3,7 +3,7 @@
     if(isset($_SESSION['faculty'])){
         $faculty = $_SESSION['faculty'];
     }else{
-        header('location:login.php');
+        header('location:../login.php');
     }
 ?>
 <!DOCTYPE html>

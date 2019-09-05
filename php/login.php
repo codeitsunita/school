@@ -19,6 +19,10 @@
                 $_SESSION['faculty'] = $faculty;
             header('location:../teacher/home.php');
         }else{
+
+
+            $_SESSION['username'] =$username;
+
             header('location:../student/index.php');
         }
         }
