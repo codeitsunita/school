@@ -19,7 +19,7 @@
                 $_SESSION['faculty'] = $faculty;
             header('location:../teacher/home.php');
         }else{
-            header('location:../student/home.php');
+            header('location:../student/index.php');
         }
         }
         
