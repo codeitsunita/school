@@ -17,6 +17,7 @@
        if($error == 0){
           if($file_type =="image/png" || $file_type=="image/jpeg"){
                if($password == $retype){
+                    $password = sha1($_POST['password']);
 
                    include "connect.php";
 
