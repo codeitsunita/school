@@ -12,8 +12,6 @@
        if($password == $retype){
            
            include "connect.php";
-           $password = sha1($_POST['password']);
-            
             $insert="INSERT INTO account (fullname, username,password,address,mobile,faculty,semester) VALUES('$fullname','$username','$password','$address','$mobile','$faculty','$semester')";
 
            if(mysqli_query($con,$insert)){

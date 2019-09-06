@@ -13,13 +13,14 @@
 <style>
     form{
      max-height: 100%;
+    }
     </style>
 
 <body>
-    <div class="row register-form">
+    <div class="row register-form" style="margin-left:150px;">
         <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
             <form class="form-horizontal custom-form" style="background-color: #208f8f;width: 542px;height: 846px; " action="../php/teacherregister.php" method="post" enctype="multipart/form-data">
-                <h1>Register Form</h1>
+                <h1 style="margin-top:2px;">Register Form</h1>
                 <div class="form-group">
                     <div class="col-sm-4 label-column"><label class="control-label" for="name-input-field">Fullname</label></div>
                     <div class="col-sm-6 input-column"><input class="form-control" type="text" name="fullname" required></div>
@@ -74,11 +75,8 @@
                     <div class="col-sm-4 label-column"><label class="control-label" for="email-input-field">Image</label></div>
                     <div class="col-sm-6 input-column"><input class="form-control" type="file" name="file" required></div>
                 </div>
-                
-                
-                <div class="checkbox"><label><input type="checkbox">I've read and accept the terms and conditions</label>
-                </div>
-                <button class="btn btn-default  btn-sm submit-button" type="submit" name="btnSubmit">Submit</button>
+                 <div class="checkbox"><label><input type="checkbox">I've read and accept the terms and conditions</label></div>
+                <button class="btn btn-default  btn-sm submit-button" type="submit" name="btnSubmit" style="margin-top:5px;">Submit</button>
                 </form>
         </div>
     </div>

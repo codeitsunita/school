@@ -17,8 +17,7 @@
        if($error == 0){
           if($file_type =="image/png" || $file_type=="image/jpeg"){
                if($password == $retype){
-                    $password = sha1($_POST['password']);
-
+                  
                    include "connect.php";
 
                     $insert="INSERT INTO account (Fullname, Username,Password,Address,Mobile,Usertype,Faculty,Image) VALUES('$fullname','$username','$password','$address','$mobile','$usertype','$faculty','$file_name')";

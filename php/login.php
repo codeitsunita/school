@@ -14,7 +14,9 @@
         while($record=mysqli_fetch_assoc($result)){
             $faculty= $record['Faculty'];
             if($usertype== 'admin'){
-            header('location:../index.php');
+                $_SESSION['username'] = $username;
+            header('location:../admin/adminhome.php');
+              
         }else if($usertype =='teacher'){
                 $_SESSION['faculty'] = $faculty;
             header('location:../teacher/home.php');
