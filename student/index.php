@@ -30,7 +30,7 @@
             </div>
             <div class="col">
                 <div class="row">
-                    <div class="col-sm-4 col-md-4 col-xl-4">
+                    <div class="col-sm-12 col-md-4 col-xl-4">
                         <div class="serviceBox yellow">
                             <div class="service-icon" style="height: 75px;background-color: #c6c0c0;"><a href="#"></a>
                                 <h4 style="color: rgb(38,42,47);font-family: Actor, sans-serif;">Notice</h4>
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-md-4 col-xl-4">
+                    <div class="col-sm-12 col-md-4 col-xl-4">
                         <div class="serviceBox yellow">
                             <div class="service-icon" style="height: 75px;background-color: #c6c0c0;"><a href="#"></a>
                                 <h4 style="color: rgb(38,42,47);font-family: Actor, sans-serif;">Notes</h4>
@@ -52,7 +52,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-md-4 col-xl-4">
+                    <div class="col-sm-12 col-md-4 col-xl-4">
                         <div class="serviceBox yellow">
                             <div class="service-icon" style="height: 75px;background-color: #c6c0c0;"><a href="#"></a>
                                 <h4 style="color: rgb(38,42,47);font-family: Actor, sans-serif;">View Assignment</h4>
@@ -79,7 +79,7 @@
         <div class="row">
             <div class="col offset-xl-3">
                 <div class="row">
-                     <div class="col-sm-4 col-md-4 col-xl-4">
+                     <div class="col-sm-12 col-md-4 col-xl-4">
                         <div class="serviceBox yellow">
                             <div class="service-icon" style="height: 75px;background-color: #c6c0c0;"><a href="#"></a>
                                 <h4 style="color: rgb(38,42,47);font-family: Actor, sans-serif;">Submit Assignment</h4>
@@ -90,7 +90,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 col-md-4 col-xl-4">
+                    <div class="col-sm-12 col-md-4 col-xl-4">
                         <div class="serviceBox yellow">
                             <div class="service-icon" style="height: 75px;background-color: #c6c0c0;"><a href="#"></a>
                                 <h4 style="color: rgb(38,42,47);font-family: Actor, sans-serif;">Event</h4>

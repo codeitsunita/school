@@ -29,7 +29,7 @@
                    }else{
 
                         echo("error:" . mysqli_error());
-                        header('Refresh:4;../register.php');
+                        header('Refresh:4;../admin/teacherregister.php');
                         }
                }
                 else{

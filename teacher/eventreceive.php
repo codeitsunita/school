@@ -43,7 +43,7 @@
     </div>
     <ul class="nav navbar-nav">
       <li ><a href="home.php">Home</a></li>
-      <li class="dropdown active">
+      <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Assignment<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="publishAssignment.php">Publish</a></li>
@@ -57,7 +57,7 @@
           <li><a href="publishNotes.php">Publish</a></li>
            </ul>
       </li>
-      <li class=""><a href="eventreceive.php">Events</a></li>
+      <li class="active"><a href="eventreceive.php">Events</a></li>
      </ul>
       <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
