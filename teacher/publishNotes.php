@@ -10,6 +10,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Notes Publish</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -35,6 +36,22 @@
         margin-top:35px;
         background-color: transparent;
     }
+       @media  screen and (max-width:600px){
+           form{
+               margin-left:30px;
+           }
+       }
+           }
+    @media  screen and (min-width:600px){
+           form{
+               margin-left:90px;
+           }
+       }
+    @media  screen and (min-width:1200px){
+           form{
+               margin-left:500px;
+           }
+       }
     </style>
     </head>
   <body>
@@ -81,6 +98,7 @@
                     $faculty =$record['Faculty'];
                     ?>
                     <option value="<?php echo $faculty ?>"> <?php echo $faculty ?></option>
+           
                     <?php
                 }
             ?>

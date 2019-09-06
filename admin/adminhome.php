@@ -1,6 +1,14 @@
-<!DOCTYPE html>
+
+<?php
+    session_start();
+    if(isset($_SESSION['username'])){
+        $username = $_SESSION['username'];
+    }else{
+        header('location:../login.php');
+    }
+?><!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Our Project+</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">

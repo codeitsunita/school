@@ -22,7 +22,7 @@
            justify-content: center;
            margin-left: 500px;
            padding: 10px;
-           width: 450px;
+           width: 400px;
            max-height: 630px;
            background-color: white;
            border-style:solid 1px white;
@@ -35,6 +35,21 @@
         margin-top:35px;
         background-color: transparent;
     }
+        @media  screen and (max-width:600px){
+           form{
+               margin-left:30px;
+           }
+       }
+    @media  screen and (min-width:600px){
+           form{
+               margin-left:90px;
+           }
+       }
+    @media  screen and (min-width:1200px){
+           form{
+               margin-left:500px;
+           }
+       }
     
        
     </style>
@@ -121,6 +136,7 @@
     <div class="form-group">
     <label for="file">File:</label>
     <input type="file" name="file" class="form-control-file" id="file" placeholder="upload">
+    
   </div>
   <button type="submit" name="btnSubmit" class="btn btn-transparents btn-lg" style="color: black; margin-bottom: 10px;">Submit</button>
   

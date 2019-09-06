@@ -66,6 +66,7 @@
                <label for="usertype" class="">Usertype</label>
                 <select name="usertype" id="" style="margin: 0px 10px; width:120px; height:40px; padding:0px 20px ">
                     <option value="teacher">teacher</option>
+                    <option value="admin">admin</option>
         
                 </select>
             </div>
