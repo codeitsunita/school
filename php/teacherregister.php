@@ -17,12 +17,7 @@
        if($error == 0){
           if($file_type =="image/png" || $file_type=="image/jpeg"){
                if($password == $retype){
-                  
-                   include "connect.php";
-
-                    $insert="INSERT INTO account (Fullname, Username,Password,Address,Mobile,Usertype,Faculty,Image) VALUES('$fullname','$username','$password','$address','$mobile','$usertype','$faculty','$file_name')";
-
-                   if(mysqli_query($con,$insert)){
+                   include "connect.php"; $insert="INSERT INTO account (Fullname, Username,Password,Address,Mobile,Usertype,Faculty,Image) VALUES('$fullname','$username','$password','$address','$mobile','$usertype','$faculty','$file_name')";   if(mysqli_query($con,$insert)){
                      move_uploaded_file($temp_name,"../upload/image/$file_name");
                        echo"Record saved";
                        header('Refresh:4;../admin/adminhome.php');

@@ -12,7 +12,7 @@
        if($password == $retype){
            
            include "connect.php";
-            $insert="INSERT INTO account (fullname, username,password,address,mobile,faculty,semester) VALUES('$fullname','$username','$password','$address','$mobile','$faculty','$semester')";
+            $insert="INSERT INTO account (fullname, username,password,address,mobile,faculty,semester,usertype) VALUES('$fullname','$username','$password','$address','$mobile','$faculty','$semester','student')";
 
            if(mysqli_query($con,$insert)){
 

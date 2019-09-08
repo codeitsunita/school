@@ -1,8 +1,14 @@
 
 <?php
     session_start();
+    include "../php/connect.php";
     if(isset($_SESSION['username'])){
         $username = $_SESSION['username'];
+        $query = "SELECT faculty FROM account where username = '$username'";
+        $result = mysqli_query($con,$query);
+        while($record = mysqli_fetch_assoc($result)){
+            $faculty = $record['faculty'];
+        }
     }else{
         header('location:../login.php');
     }
@@ -52,7 +58,7 @@ include "layouts/header.php";
    <?php
         
      include "../php/connect.php";
-     $query = "SELECT * FROM notes";
+     $query = "SELECT * FROM notes where faculty = '$faculty'";
      $result = mysqli_query($con,$query);
      if(mysqli_num_rows($result) >0){
          while($record=mysqli_fetch_assoc($result)){
