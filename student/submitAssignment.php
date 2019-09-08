@@ -91,7 +91,7 @@
                     <p style="margin-top: 5px;"><strong>Submit your assignments! &nbsp;</strong></p>Students are required to upload their assignments in the given deadline. If students fail to submit their assignments within the given deadline, they are rewarded 0 marks in the subject and have to retake their assignments.
                     <div class="row register-form">
                         <div class="col-md-8 offset-md-2" style="padding-right: 0px;padding-left: 0px;">
-                            <form class="custom-form" style="padding: 20px;" action="../php/studentsubmit/php" method="post" enctype="multipart/form-data">
+                            <form class="custom-form" style="padding: 20px;" action="../php/studentsubmit.php" method="post" enctype="multipart/form-data">
                                 <h1 style="font-family: Actor, sans-serif;font-size: 30px;">Assignment Submission</h1>
                                 <div class="form-row form-group">
                                     <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field">Date </label></div>
@@ -127,7 +127,7 @@
                                 <div class="form-row form-group">
                                     <div class="col-sm-4 label-column"><label class="col-form-label" for="pawssword-input-field">Upload a file</label></div>
                                     <div class="col-sm-6 input-column"><input type="file" name="file"></div>
-                                </div><button class="btn btn-light submit-button" type="button" style="background-color: rgb(23,147,241);">Submit</button></form>
+                                </div><button class="btn btn-light submit-button" type="submit" name="btnSubmit" style="background-color: rgb(23,147,241);">Submit</button></form>
                         </div>
                     </div>
                 </div>
