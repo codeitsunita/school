@@ -1,7 +1,14 @@
+
 <?php
     session_start();
-    if(isset($_SESSION['faculty'])){
-        $faculty = $_SESSION['faculty'];
+    include "../php/connect.php";
+    if(isset($_SESSION['username'])){
+        $username = $_SESSION['username'];
+        $query = "SELECT faculty FROM account where username = '$username'";
+        $result = mysqli_query($con,$query);
+        while($record = mysqli_fetch_assoc($result)){
+            $faculty = $record['faculty'];
+        }
     }else{
         header('location:../login.php');
     }
@@ -30,7 +37,7 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Teacher</a>
+      <a class="navbar-brand" href="#"><?php echo "$username" ?></a>
     </div>
     <ul class="nav navbar-nav">
       <li ><a href="home.php">Home</a></li>
@@ -74,7 +81,7 @@
    <?php
         
      include "../php/connect.php";
-     $query = "SELECT * FROM assignmentreceive";
+     $query = "SELECT * FROM assignmentreceive where faculty='$faculty'";
      $result = mysqli_query($con,$query);
      if(mysqli_num_rows($result) >0){
          while($record=mysqli_fetch_assoc($result)){

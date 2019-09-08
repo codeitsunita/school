@@ -1,7 +1,14 @@
+
 <?php
     session_start();
-    if(isset($_SESSION['faculty'])){
-        $faculty = $_SESSION['faculty'];
+    include "../php/connect.php";
+    if(isset($_SESSION['username'])){
+        $username = $_SESSION['username'];
+        $query = "SELECT faculty FROM account where username = '$username'";
+        $result = mysqli_query($con,$query);
+        while($record = mysqli_fetch_assoc($result)){
+            $faculty = $record['faculty'];
+        }
     }else{
         header('location:../login.php');
     }
