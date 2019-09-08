@@ -20,7 +20,7 @@
                    include "connect.php"; $insert="INSERT INTO account (Fullname, Username,Password,Address,Mobile,Usertype,Faculty,Image) VALUES('$fullname','$username','$password','$address','$mobile','$usertype','$faculty','$file_name')";   if(mysqli_query($con,$insert)){
                      move_uploaded_file($temp_name,"../upload/image/$file_name");
                        echo"Record saved";
-                       header('Refresh:4;../admin/adminhome.php');
+                       header('Refresh:1;../admin/adminhome.php');
                    }else{
 
                         echo("error:" . mysqli_error());

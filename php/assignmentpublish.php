@@ -23,7 +23,7 @@
                     if(mysqli_query($con,$insert)){
                         move_uploaded_file($temp_name,"../upload/assignment/$file_name");
                         echo "file uploaded";
-                        header('Refresh:5;../teacher/home.php');
+                        header('Refresh:1;../teacher/home.php');
                     }else{
                         echo("error:" . mysqli_error());
                         header('Refresh:4;../teacher/publishassignment.php');

@@ -17,7 +17,7 @@
            if(mysqli_query($con,$insert)){
 
                echo"Record saved";
-            header('Refresh:4;../login.php');
+            header('Refresh:1;../login.php');
            }
             else{
 

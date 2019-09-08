@@ -127,7 +127,8 @@
                                 <div class="form-row form-group">
                                     <div class="col-sm-4 label-column"><label class="col-form-label" for="pawssword-input-field">Upload a file</label></div>
                                     <div class="col-sm-6 input-column"><input type="file" name="file"></div>
-                                </div><button class="btn btn-light submit-button" type="button" style="background-color: rgb(23,147,241);">Submit</button></form>
+                                </div><button class="btn btn-light submit-button" type="button" style="background-color: rgb(23,147,241);">Submit</button>
+                            </form>
                         </div>
                     </div>
                 </div>

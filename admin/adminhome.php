@@ -46,7 +46,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <a href="teacherregister.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw"></i>Teacher Register</a>
     <a href="events.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i>Events</a>
     <a href="notice.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>Notice</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  History</a>
+    <a href="faculty.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  Faculty</a>
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i>  Settings</a>
      <a href="../login.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bank fa-fw"></i>  Logout</a>
   </div>

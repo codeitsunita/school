@@ -20,7 +20,7 @@
                     if(mysqli_query($con,$insert)){
                         move_uploaded_file($temp_name,"../upload/notice/$file_name");
                         echo "file uploaded";
-                        header('Refresh:5;../admin/notice.php');
+                        header('Refresh:1;../admin/notice.php');
                     }else{
                         echo("error:" . mysqli_error());
                         header('Refresh:4;../admin/notice.php');

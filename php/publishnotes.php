@@ -21,7 +21,7 @@
                     if(mysqli_query($con,$insert)){
                         move_uploaded_file($temp_name,"../upload/notesTech/$file_name");
                         echo"file uploaded";
-                        header('Refresh:6;../teacher/home.php');
+                        header('Refresh:1;../teacher/home.php');
                             
                     }else{
                         echo ("error:" . mysqli_error());
